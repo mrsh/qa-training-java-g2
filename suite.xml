@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--Początek całego zestawu testów, umieszczamy w pliku tylko jeden obiekt suite-->
+<suite name="My first suite">
+<!--    Nazwa pojedynczego testu wykonywanego w ramach zestawu, w zestawie umieszczamy wiele testów-->
+    <test name="Check sum">
+<!--        Lista klas z testami (metodami testowymi), które zostaną uruchomione w ramach testu, w ramach testu umieszczamy jedną listę classes-->
+        <classes>
+<!--            wskazanie konkretnych klas ro uruchomienia testów, w ramach classes możemy umieścić wiele obiektów class, a przy użyciu tagu methods wewnątrz class
+                moglibyśmy wskazać pojedyncze metody, które mają zostać wczytane z klasy-->
+            <class name="basic.test.SumTest"/>
+        </classes>
+    </test>
+</suite>
