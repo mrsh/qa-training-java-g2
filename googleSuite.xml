@@ -3,7 +3,7 @@
 <suite name="Google suite">
     <test name="Search google for selenium webdriver maven dependency">
         <classes>
-            <class name="selenium.google.search.GoogleMavenSearchTest"/>
+            <class name="selenium.google.search.BasicGoogleMavenSearchTest"/>
         </classes>
     </test>
 </suite>

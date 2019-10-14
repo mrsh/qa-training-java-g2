@@ -1,4 +1,4 @@
-package basic.test;
+package test.basic.test;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
